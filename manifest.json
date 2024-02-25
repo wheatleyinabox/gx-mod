@@ -1,0 +1,87 @@
+{
+  "name": "APSCI ADMIN USER",
+  "description": "Personal GX Mod that's Portal themed!",
+  "developer": {
+    "name": "wheatleyinabox"
+  },
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "browser_sounds": {
+        "CLICK": ["sound/click.wav"],
+        "FEATURE_SWITCH_OFF": ["sound/feature_switch_off.wav"],
+        "FEATURE_SWITCH_ON": ["sound/feature_switch_on.wav"],
+        "HOVER": ["sound/hover.wav"],
+        "HOVER_UP": ["sound/hover.wav"],
+        "IMPORTANT_CLICK": ["sound/important_click.wav"],
+        "LEVEL_UPGRADE": ["sound/level_upgrade.wav"],
+        "LIMITER_OFF": ["sound/limiter_off.wav"],
+        "LIMITER_ON": ["sound/limiter_on.wav"],
+        "SWITCH_TOGGLE": ["sound/switch.wav"],
+        "TAB_CLOSE": ["sound/close_tab.wav"],
+        "TAB_INSERT": ["sound/new_tab.wav"],
+        "TAB_SLASH": ["sound/tab_slash.wav"]
+      },
+      "keyboard_sounds": {
+        "TYPING_BACKSPACE": ["keyboard/backspace.wav"],
+        "TYPING_ENTER": ["keyboard/enter.wav"],
+        "TYPING_LETTER": [
+          "keyboard/letter_1.wav",
+          "keyboard/letter_2.wav",
+          "keyboard/letter_3.wav"
+        ],
+        "TYPING_SPACE": ["keyboard/space.wav"]
+      },
+      "page_styles": [
+        {
+          "css": ["webmodding/opera.css"],
+          "matches": ["https://*.opera.com/*"]
+        }
+      ],
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 40,
+            "s": 60,
+            "l": 53
+          },
+          "gx_secondary_base": {
+            "h": 0,
+            "s": 0,
+            "l": 1
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 220,
+            "s": 70,
+            "l": 64
+          },
+          "gx_secondary_base": {
+            "h": 219,
+            "s": 75,
+            "l": 24
+          }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "image": "wallpaper/dark.jpeg",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#757575"
+        },
+        "light": {
+          "image": "wallpaper/light.jpeg",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#0B000E"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.0"
+}
