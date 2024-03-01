@@ -12,7 +12,6 @@
     "license": "license.txt",
     "payload": {
       "browser_sounds": {
-        "CLICK": ["sound/click.wav"],
         "FEATURE_SWITCH_OFF": ["sound/feature_switch_off.wav"],
         "FEATURE_SWITCH_ON": ["sound/feature_switch_on.wav"],
         "HOVER": ["sound/hover.wav"],
